@@ -1,3 +1,3 @@
-module github.com/basili4-1982/hello
+module github.com/Dyuzhovsergey/hello
 
 go 1.22
