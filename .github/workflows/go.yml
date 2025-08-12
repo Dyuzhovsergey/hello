@@ -12,8 +12,7 @@ jobs:
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v3
         with:
-          version: v1.56.2
-          args: --timeout=2m  # Переопределяем timeout из конфига для CI         
+          version: v1.56.2   
       
       - run: go mod tidy
       
